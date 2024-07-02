@@ -59,7 +59,12 @@ function play() {
     history.push(userValue);
     historyList.textContent = `You have entered following numbers: ${history}`;
 
-
+    if (userValue == computerNum) {
+        resultArea.textContent = "CORRECT!!"
+        playButton.disabled = true;
+        return;
+    }
+    
     if (tries == 0) {
         gameOver = true;
 
