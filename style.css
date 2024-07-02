@@ -1,0 +1,29 @@
+body {
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(image/soju.jpeg)
+}
+
+.bona-nova-sc-regular {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .container {
+    border: 5px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+  }
+
+.border-line {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
